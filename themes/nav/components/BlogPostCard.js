@@ -13,7 +13,7 @@ const BlogPostCard = ({ post, className }) => {
                     <NotionIcon icon={pageIcon} size='10' className='text-6xl w-11 h-11 mx-1 my-0 flex-none' />
                     <div className="stack-comment flex-auto">
                         <p className="title font-bold">{post.title}</p>
-                        <p className="description font-normal">{post.summary ? post.summary : '暂无简介'}</p>
+                        <p className="description font-normal">{post.summary ? post.summary : ''}</p>
                     </div>
                 </div>
         </div>
